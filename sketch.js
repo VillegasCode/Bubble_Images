@@ -2,8 +2,8 @@ var bubbles = [];
 var img;
 
 function preload()  {
-    img = loadImage("https://upload.wikimedia.org/wikipedia/commons/3/38/Flower_July_2011-2_1_cropped.jpg");
-    //img = loadImage("images\flower1.jpg");
+    //img = loadImage("https://upload.wikimedia.org/wikipedia/commons/3/38/Flower_July_2011-2_1_cropped.jpg");
+    img = loadImage("images/flower0.png");
 }
 
 function setup() {
