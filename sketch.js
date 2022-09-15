@@ -1,9 +1,11 @@
 var bubbles = [];
-var img;
+var flowers = [];
 
 function preload()  {
-    //img = loadImage("https://upload.wikimedia.org/wikipedia/commons/3/38/Flower_July_2011-2_1_cropped.jpg");
-    img = loadImage("images/flower0.png");
+    flowers[0] = loadImage("images/flower0.png");
+    flowers[1] = loadImage("images/flower1.png");
+    flowers[2] = loadImage("images/flower2.png");
+    flowers[3] = loadImage("images/flower3.png");
 }
 
 function setup() {
@@ -11,13 +13,13 @@ function setup() {
 }
 
 function mousePressed() {
-    var b = new Bubble(mouseX, mouseY);
+    var r = floor(random(0, flowers.length));
+    var b = new Bubble(mouseX, mouseY, flowers[r]);
     bubbles.push(b);
 }
 
 function draw() {
     background(0);
-    //image(img, 50, 50, 300, 300);
     for (var i = bubbles.length - 1; i >= 0; i--) {
         bubbles[i].update();
         bubbles[i].display();
