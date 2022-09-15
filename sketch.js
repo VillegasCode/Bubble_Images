@@ -2,10 +2,9 @@ var bubbles = [];
 var flowers = [];
 
 function preload()  {
-    flowers[0] = loadImage("images/flower0.png");
-    flowers[1] = loadImage("images/flower1.png");
-    flowers[2] = loadImage("images/flower2.png");
-    flowers[3] = loadImage("images/flower3.png");
+    for (i = 0; i < 8; i++) {
+        flowers[i] = loadImage("images/flower" + i + ".png");
+    }
 }
 
 function setup() {
