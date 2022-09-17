@@ -4,7 +4,7 @@ var flowers = [];
 
 function preload()  {
     //We load previously the flowers images whole of LOOP FOR
-    for (i = 0; i < 8; i++) {
+    for (i = 0; i < 11; i++) {
         //The names of pictures are correlatives
         flowers[i] = loadImage("images/flower" + i + ".png");
     }
