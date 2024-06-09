@@ -12,7 +12,7 @@ function preload()  {
 
 function setup() {
     //We've created canvas
-    createCanvas (width, height);
+    createCanvas (window.innerWidth, window.innerHeight);
 }
 
 function mousePressed() {
