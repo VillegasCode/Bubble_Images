@@ -18,7 +18,7 @@
 
 ## :dart: About ##
 
-This is a app of entertainment, just click and a flower will appear floating in the lake, click again and another flower of a different color and shape will appear, each time you click on the lake (canvas) flowers of random colors and shapes will appear and begin to bloom. float all over the lake.
+This is an app of entertainment, just click and a flower will appear floating in the lake, click again and another flower of a different color and shape will appear, each time you click on the lake (canvas) flowers of random colors and shapes will appear and begin to bloom. float all over the lake.
 <br>
 You can send this app to your date in case he likes flowers haha.
 
