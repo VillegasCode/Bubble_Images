@@ -1,6 +1,6 @@
 <div align="center" id="top">
   <h1>Flowers floating in the lake - Entertainment</h1>
-  <img src="https://github.com/VillegasCode/aniversario-papitos/blob/main/images/app-flowers-floating-in-the-lake.png" width="900" alt="Flowers floating in the lake - Entertainment" />
+  <img src="https://github.com/VillegasCode/Bubble_Images/blob/main/images/app-flowers-floating-in-the-lake.png" width="900" alt="Flowers floating in the lake - Entertainment" />
 
   <a href="https://villegascode.github.io/Bubble_Images/" target="_blank">Try the Flowers floating in the lake - Entertainment click here</a>
 </div>
